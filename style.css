@@ -1,0 +1,25 @@
+.cover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 700px;
+    padding-top: 50px;
+}
+#first-cover{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/cover/cover-1.png);
+}
+#second-cover{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/cover/cover-2.jpg);
+}
+#third-cover{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/cover/cover-3.jpg);
+}
+
+
+@media only screen and (max-width: 480px){
+    .cover{
+        height: 500px;
+    }
+    
+}
